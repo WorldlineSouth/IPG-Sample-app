@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.worldline.in.worldlineipgsdk">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CardCapture" />
+        <activity android:name=".TransactionStatusActivity" />
+        <activity android:name=".CancelActivity" />
+        <activity android:name=".RefundActivity"/>
+
+<!--test merchant for card capture-->
+<!--        <meta-data-->
+<!--            android:name="key"-->
+<!--            android:value="3699a6289277c23e8efa6ba12c3bb517" />-->
+<!--        <meta-data-->
+<!--            android:name="mid"-->
+<!--            android:value="WL0000000036823" />-->
+        <!-- Card capture -->
+        <meta-data
+            android:name="key"
+            android:value="6375b97b954b37f956966977e5753ee6" />
+        <!--            android:value="3a426774ec376030d080a23b842606b9" />-->
+        <meta-data
+            android:name="mid"
+            android:value="WL0000000027698" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Worldline IPG Sdk</string>
+    <string name="standard">Standard</string>
+    <string name="card_capture">Card Capture</string>
+    <string name="status">Transaction status</string>
+    <string name="cancel">Cancel Request</string>
+    <string name="refund">Refund</string>
+    <string name="customer_name_hint">Customer Name</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="pipe_separator">/</string>
+    <string name="cvv_hint">CVV</string>
+    <string name="pay_button">Pay</string>
+    <string name="order_id">Order Id</string>
+    <string name="transaction_reference_number_hint">Transaction Reference Number</string>
+    <string name="ok_button">OK</string>
+    <string name="amount">Amount</string>
+    <string name="title_activity_payment_standard">PaymentStandard</string>
+    <string name="validatn">Please Enter all the Mandatory Fields </string>
+
+
+
+    <string name="merchant_id">Merchant ID</string>
+    <string name="encryptn_key">Encryption Key</string>
+    <string name="transactn_type">Transaction Type</string>
+    <string name="pay_type">PayType Code</string>
+    <string name="done">Done</string>
+
+</resources>
