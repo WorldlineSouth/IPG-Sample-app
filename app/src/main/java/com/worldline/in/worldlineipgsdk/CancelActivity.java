@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,9 +30,12 @@ public class CancelActivity extends AppCompatActivity implements ResultListener 
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                CancelTransaction cancelTransaction = new CancelTransaction(CancelActivity.this, CancelActivity.this);
-                cancelTransaction.execute(etOrderId.getText().toString(), etTransactionRefNo.getText().toString());
+                if(!etOrderId.getText().toString().equals("") && !etTransactionRefNo.getText().toString().equals("")) {
+                    CancelTransaction cancelTransaction = new CancelTransaction(CancelActivity.this, CancelActivity.this);
+                    cancelTransaction.execute(etOrderId.getText().toString(), etTransactionRefNo.getText().toString());
+                }else{
+                        Toast.makeText(CancelActivity.this,"All fields are Mandatory", Toast.LENGTH_SHORT).show();
+                    }
             }
         });
 

@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,9 +29,12 @@ public class TransactionStatusActivity extends AppCompatActivity implements Resu
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                TransactionStatus transactionStatus = new TransactionStatus(TransactionStatusActivity.this,TransactionStatusActivity.this);
-                transactionStatus.execute(etOrderId.getText().toString(),etTransactionRefNo.getText().toString());
+                if(!etOrderId.getText().toString().equals("") && !etTransactionRefNo.getText().toString().equals("")) {
+                    TransactionStatus transactionStatus = new TransactionStatus(TransactionStatusActivity.this, TransactionStatusActivity.this);
+                    transactionStatus.execute(etOrderId.getText().toString(), etTransactionRefNo.getText().toString());
+                }else{
+                    Toast.makeText(TransactionStatusActivity.this,"All fields are Mandatory", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

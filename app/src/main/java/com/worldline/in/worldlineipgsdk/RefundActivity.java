@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,9 +29,12 @@ public class RefundActivity extends AppCompatActivity implements ResultListener 
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if(!etOrderId.getText().toString().equals("") && !etTransactionRefNo.getText().toString().equals("")) {
                 RefundTransaction refundTransaction = new RefundTransaction(RefundActivity.this, RefundActivity.this);
                 refundTransaction.execute(etOrderId.getText().toString(), etTransactionRefNo.getText().toString());
+            }else{
+                Toast.makeText(RefundActivity.this,"All fields are Mandatory", Toast.LENGTH_SHORT).show();
+            }
             }
         });
     }

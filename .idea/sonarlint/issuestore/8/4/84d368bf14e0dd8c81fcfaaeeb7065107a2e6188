@@ -1,82 +1,82 @@
 
-Z
-java:S1854b"?Remove this useless assignment to local variable "authZstatus".(ïîÈÂüÿÿÿÿ
+E
+java:S1481]"/Remove this unused "statusCode" local variable.(ı‘Ï¯
+<
+java:S1170"!Make this final field static too.(ÆÈ·Åøÿÿÿÿ
+7	java:S1310""Add a default case to this switch.(¦ÌëÁ
+R
+java:S1854j"=Remove this useless assignment to local variable "addField5".(ˆÏº	
+D
+java:S1481f".Remove this unused "addField1" local variable.(“Í¿À
+R
+java:S1854n"=Remove this useless assignment to local variable "addField9".(ŒÔ¸e
+X
+java:S1854g"=Remove this useless assignment to local variable "addField2".(ƒ†äÅùÿÿÿÿ
+K
+java:S1481b"0Remove this unused "authZstatus" local variable.(ïîÈÂüÿÿÿÿ
+I
+java:S1481g".Remove this unused "addField2" local variable.(ƒ†äÅùÿÿÿÿ
+T
+java:S1854]">Remove this useless assignment to local variable "statusCode".(ı‘Ï¯
+P
+java:S1481d"5Remove this unused "pgRefCancelReqId" local variable.(Ò¼ãøÿÿÿÿ
+X
+java:S1854m"=Remove this useless assignment to local variable "addField8".(ø­ëüûÿÿÿÿ
+X
+java:S1854k"=Remove this useless assignment to local variable "addField6".(©‘üæşÿÿÿÿ
+>
+java:S1481\"(Remove this unused "rrn" local variable.(ã¹ËŞ
+S
+java:S1854l"=Remove this useless assignment to local variable "addField7".(’ñ·Ï
+X
+java:S1854i"=Remove this useless assignment to local variable "addField4".(ğö“Áşÿÿÿÿ
+S
+java:S1854f"=Remove this useless assignment to local variable "addField1".(“Í¿À
+_
+java:S1854d"DRemove this useless assignment to local variable "pgRefCancelReqId".(Ò¼ãøÿÿÿÿ
+I
+java:S1481m".Remove this unused "addField8" local variable.(ø­ëüûÿÿÿÿ
+F
+java:S1481`"0Remove this unused "requestDate" local variable.(‚¯©Ó
+Q
+java:S1481_"6Remove this unused "transactionAmount" local variable.(Úü•ôøÿÿÿÿ
+M
+java:S1481c"2Remove this unused "captureStatus" local variable.(©Í½úşÿÿÿÿ
+J
+java:S1066Y"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ
+C
+java:S1481j".Remove this unused "addField5" local variable.(ˆÏº	
+C
+java:S1481h".Remove this unused "addField3" local variable.(¹­Ş,
+M
+java:S1854\"7Remove this useless assignment to local variable "rrn".(ã¹ËŞ
+c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İù½‘
+U
+java:S1854`"?Remove this useless assignment to local variable "requestDate".(‚¯©Ó
 F
 java:S1481a"0Remove this unused "authNStatus" local variable.(…µÅ¯
 I
-java:S1481m".Remove this unused "addField8" local variable.(ø­ëüûÿÿÿÿ
-T
-java:S1854]">Remove this useless assignment to local variable "statusCode".(ı‘Ï¯
-F
-java:S1481`"0Remove this unused "requestDate" local variable.(‚¯©Ó
-D
-java:S1481f".Remove this unused "addField1" local variable.(“Í¿À
-G
-java:S1481e"1Remove this unused "refundAmount" local variable.(ŞÍ³
->
-java:S1481\"(Remove this unused "rrn" local variable.(ã¹ËŞ
-K
-java:S1481b"0Remove this unused "authZstatus" local variable.(ïîÈÂüÿÿÿÿ
-V
-java:S1854e"@Remove this useless assignment to local variable "refundAmount".(ŞÍ³
-R
-java:S1854n"=Remove this useless assignment to local variable "addField9".(ŒÔ¸e
-I
-java:S1481i".Remove this unused "addField4" local variable.(ğö“Áşÿÿÿÿ
-`
-java:S1854_"ERemove this useless assignment to local variable "transactionAmount".(Úü•ôøÿÿÿÿ
+java:S1481k".Remove this unused "addField6" local variable.(©‘üæşÿÿÿÿ
 C
 java:S1481n".Remove this unused "addField9" local variable.(ŒÔ¸e
-R
-java:S1854h"=Remove this useless assignment to local variable "addField3".(¹­Ş,
-M
-java:S1481c"2Remove this unused "captureStatus" local variable.(©Í½úşÿÿÿÿ
-E
-java:S1481]"/Remove this unused "statusCode" local variable.(ı‘Ï¯
 =
 java:S1068"'Remove this unused "TAG" private field.(İù½‘
-X
-java:S1854i"=Remove this useless assignment to local variable "addField4".(ğö“Áşÿÿÿÿ
-C
-java:S1481h".Remove this unused "addField3" local variable.(¹­Ş,
-I
-java:S1481k".Remove this unused "addField6" local variable.(©‘üæşÿÿÿÿ
-D
-java:S1481l".Remove this unused "addField7" local variable.(’ñ·Ï
-J
-java:S1066Y"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ
-Q
-java:S1481_"6Remove this unused "transactionAmount" local variable.(Úü•ôøÿÿÿÿ
-c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İù½‘
-X
-java:S1854m"=Remove this useless assignment to local variable "addField8".(ø­ëüûÿÿÿÿ
-_
-java:S1854d"DRemove this useless assignment to local variable "pgRefCancelReqId".(Ò¼ãøÿÿÿÿ
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(ÄÇ‚·8† ø”ä.
+V
+java:S1854e"@Remove this useless assignment to local variable "refundAmount".(ŞÍ³
 \
 java:S1854c"ARemove this useless assignment to local variable "captureStatus".(©Í½úşÿÿÿÿ
-S
-java:S1854f"=Remove this useless assignment to local variable "addField1".(“Í¿À
-P
-java:S1481d"5Remove this unused "pgRefCancelReqId" local variable.(Ò¼ãøÿÿÿÿ
 R
-java:S1854j"=Remove this useless assignment to local variable "addField5".(ˆÏº	
-I
-java:S1481g".Remove this unused "addField2" local variable.(ƒ†äÅùÿÿÿÿ
-C
-java:S1481j".Remove this unused "addField5" local variable.(ˆÏº	
-<
-java:S1170"!Make this final field static too.(ÆÈ·Åøÿÿÿÿ
-S
-java:S1854l"=Remove this useless assignment to local variable "addField7".(’ñ·Ï
-7	java:S1310""Add a default case to this switch.(¦ÌëÁ
-M
-java:S1854\"7Remove this useless assignment to local variable "rrn".(ã¹ËŞ
-U
-java:S1854`"?Remove this useless assignment to local variable "requestDate".(‚¯©Ó
-X
-java:S1854k"=Remove this useless assignment to local variable "addField6".(©‘üæşÿÿÿÿ
-X	java:S110"<This class has 9 parents which is greater than 5 authorized.(ÄÇ‚·8† ø”ä.
+java:S1854h"=Remove this useless assignment to local variable "addField3".(¹­Ş,
 U
 java:S1854a"?Remove this useless assignment to local variable "authNStatus".(…µÅ¯
-X
-java:S1854g"=Remove this useless assignment to local variable "addField2".(ƒ†äÅùÿÿÿÿ
+`
+java:S1854_"ERemove this useless assignment to local variable "transactionAmount".(Úü•ôøÿÿÿÿ
+Z
+java:S1854b"?Remove this useless assignment to local variable "authZstatus".(ïîÈÂüÿÿÿÿ
+G
+java:S1481e"1Remove this unused "refundAmount" local variable.(ŞÍ³
+I
+java:S1481i".Remove this unused "addField4" local variable.(ğö“Áşÿÿÿÿ
+D
+java:S1481l".Remove this unused "addField7" local variable.(’ñ·Ï

@@ -5,3 +5,5 @@ U
 java:S1118":Add a private constructor to hide the implicit public one.(¹‹ó¿ýÿÿÿÿ
 —
 java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢
+J
+java:S1604#"(Make this anonymous inner class a lambda(²ü´­ÿÿÿÿÿ8ˆ¡ç¸ä.
