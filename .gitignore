@@ -1,9 +1,36 @@
+# Built application files
+*.apk
+*.aar
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Gradle generated files
+.gradle/
+
+# IntelliJ
+.idea/**
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+
+# Java class files
+*.class
+
+# Signing files
+/*/release/
+
+# Log Files
+*.log
+
+# External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+.cxx/
+
+# Version control
+vcs.xml
+
+# Built application files
+/*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties

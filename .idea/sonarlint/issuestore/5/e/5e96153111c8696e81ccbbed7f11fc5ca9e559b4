@@ -1,6 +1,6 @@
 
-X	java:S110"<This class has 9 parents which is greater than 5 authorized.(¬Ğ8»œ•ä.
-V	java:S125+"<This block of commented-out lines of code should be removed.(»äƒåúÿÿÿÿ
-c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İù½‘
+c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İù½‘
 J
-java:S1604"(Make this anonymous inner class a lambda(Äë½½şÿÿÿÿ8ó”ğ¹ä.
+java:S1604"(Make this anonymous inner class a lambda(Äë½½şÿÿÿÿ8ó”ğ¹ä.
+V	java:S125/"<This block of commented-out lines of code should be removed.(»äƒåúÿÿÿÿ
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(¬Ğ8»œ•ä.

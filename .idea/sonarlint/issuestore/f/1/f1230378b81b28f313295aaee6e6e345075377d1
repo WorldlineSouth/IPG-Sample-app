@@ -1,5 +1,5 @@
 
-c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýù½‘
+W	java:S110"<This class has 9 parents which is greater than 5 authorized.(ë¬®_8•ºˆ²ä.
 J
-java:S1604"(Make this anonymous inner class a lambda(Äë½½þÿÿÿÿ8†¡ç¸ä.
-W	java:S110"<This class has 9 parents which is greater than 5 authorized.(ë¬®_8•ºˆ²ä.
+java:S1604"(Make this anonymous inner class a lambda(Äë½½þÿÿÿÿ8†¡ç¸ä.
+c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýù½‘
