@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String addField7 = data.getStringExtra(Param.ADDL_FIELD_7);
                 String addField8 = data.getStringExtra(Param.ADDL_FIELD_8);
                 String addField9 = data.getStringExtra(Param.ADDL_FIELD_9);
+                String addField10 = data.getStringExtra(Param.ADDL_FIELD_10);
 
                 String msg = "Status desc: " + statusDescription + "\nRef No: " + transactionRefNo+ "\nOrder id: "+orderId;
                 Utility.showAlertDialog(this,msg);
